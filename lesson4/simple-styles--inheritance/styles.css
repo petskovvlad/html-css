@@ -1,9 +1,9 @@
-body {
+.body {
     font-size: 24px;
 }
-p {
+.p {
     color: green;
 }
-li {
+.li {
     color: orange;
 }
