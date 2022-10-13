@@ -1,7 +1,7 @@
-.highlited.super-important {
+.highlighted.super-important {
     background-color: red;
 }
-.highlited, .company-data {
+.highlighted, .company-data {
     color: yellow;
 }
 li.user-data {
