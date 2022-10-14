@@ -1,11 +1,11 @@
 li {
     margin-bottom: 16px;
 }
-ol {
+ol li {
     background-color: green;
     color: white;
 }
-ul {
+ul li {
     background-color: orange;
     color: white;
 }
@@ -14,4 +14,4 @@ ul {
 }
 #special ~ li {
     margin-left: 16px;
-}
+} 
