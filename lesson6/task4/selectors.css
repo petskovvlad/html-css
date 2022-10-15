@@ -1,9 +1,9 @@
-section[class="already-learned"] > ol {
+section[class="already-learned"] > ol > li {
     background-color: green;
     color: white;
 }
 
-section[class="to-be-learned"] > ol {
+section[class="to-be-learned"] > ol > li {
     background-color: orange;
     color: green;
 }
