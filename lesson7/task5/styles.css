@@ -32,7 +32,7 @@ input[type='text'] {
 div:nth-child(3n+2) > p {
     background: yellow;
 }
-div:nth-child(3n+2) > p:nth-child(2) {
+div:nth-child(3n+2) > p:nth-child(2n+1) {
     border: 5px solid white;
 }
 div:nth-child(3n+2) em {
