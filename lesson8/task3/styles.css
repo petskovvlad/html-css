@@ -1,0 +1,5 @@
+.padding {
+    border: 3px solid black;
+    background-color: aqua;
+    padding: 50px;
+}
