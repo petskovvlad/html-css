@@ -53,7 +53,7 @@ div {
 
 .absolute-position {
   position: absolute;
-  bottom: 20px;
+  right: 20px;
   left: 50px;
 }
 
