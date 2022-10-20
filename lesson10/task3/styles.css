@@ -5,12 +5,11 @@
     align-items: center;
 }
 .navigation {
-    margin: 0px;
     display: flex;
 }
 .navigation_text {
     list-style-type: none;
-    padding-right: 16px;
+    margin-right: 16px;
 }
 .main {
     display: flex;
