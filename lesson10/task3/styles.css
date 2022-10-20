@@ -6,11 +6,12 @@
 }
 .navigation {
     margin: 0;
+    padding: 0;
     display: flex;
 }
 .navigation_text {
     list-style-type: none;
-    margin-right: 16px;
+    margin-left: 16px;
 }
 .main {
     display: flex;
@@ -43,11 +44,12 @@
 }
 .ul {
     margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 .news_text {
     height: 40px;
-    right: 16px;
+    margin-left: 16px;
 }
 .page {
     display: flex;
