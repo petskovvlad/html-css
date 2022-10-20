@@ -10,7 +10,7 @@
 }
 .navigation_text {
     list-style-type: none;
-    margin-right: 16px;
+    padding-right: 16px;
 }
 .main {
     display: flex;
