@@ -5,6 +5,7 @@
     align-items: center;
 }
 .navigation {
+    margin: 0;
     display: flex;
 }
 .navigation_text {
