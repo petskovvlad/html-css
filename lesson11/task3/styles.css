@@ -1,12 +1,13 @@
 .dropdown {
     margin: 16px;
+    padding: 16px;   
 }
-
 .menu-button {
     padding: 16px;
     background-color: darkgreen;
-    opacity: 0.8;
+    opacity: 0.8; 
 }
+
 .dropdown:hover {
     opacity: 1;
     font-size: 16px;
