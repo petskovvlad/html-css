@@ -1,6 +1,7 @@
+
 .dropdown {
     margin: 16px;
-    padding: 16px;   
+    display: flex;
 }
 .menu-button {
     padding: 16px;
@@ -30,7 +31,7 @@
 }
 .menu-item {
     padding: 16px;
-   list-style-type: none;
+    list-style-type: none;
 }
 .menu-item:hover {
     background-color: ghostwhite;
