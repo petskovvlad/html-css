@@ -3,11 +3,11 @@
     margin: 16px;
     display: inline-block;
     color: white;
+    opacity: 0.8; 
 }
 .menu-button {
     padding: 16px;
     background-color: darkgreen;
-    opacity: 0.8; 
     position: relative;
     display: flex;
 }
