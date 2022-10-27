@@ -20,7 +20,7 @@
 }
 
 .caption {
-    height: 30px;
+   line-height: 30px;
     text-transform: lowercase;
     text-align: center;
 }
