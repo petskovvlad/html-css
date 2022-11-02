@@ -1,25 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
-.form {
+form {
     margin: 32px;
-}
-
-.input {
-    display: block;
+  }
+  
+  .ctrl,
+  .languages {
     margin: 8px;
-}
-
-.languages {
-    font-style: normal;
-    display: block;
-}
-
-.textarea {
-    margin: 8px;
-}
-
-.radio {
-    margin: 8px;
-}
+  }
