@@ -8,6 +8,8 @@ body {
 
 .page {
     display: flex;
+    font-size: 16px;
+    font-family: monospace, sans-serif;
 }
 
 .login-form {
@@ -15,7 +17,6 @@ body {
     margin: 0;
 
     width: 300px;
-    position: absolute;
     position: absolute;
     top: 50%;
     left: 50%;
