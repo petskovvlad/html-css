@@ -10,9 +10,11 @@ body {
     display: flex;
     font-size: 16px;
     font-family: monospace, sans-serif;
+    height: 100vh;
 }
 
 .login-form {
+    display: inline-block;
     background-color: aqua;
     width: 300px;
     margin: auto;
