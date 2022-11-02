@@ -12,11 +12,14 @@
 }
 
 .languages {
-    margin: 8px;
     font-style: normal;
     display: block;
 }
 
 .textarea {
+    margin: 8px;
+}
+
+.radio {
     margin: 8px;
 }
