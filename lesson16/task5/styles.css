@@ -6,7 +6,7 @@
     margin: 32px;
 }
 
-.input {
+input {
     display: block;
     margin: 8px;
 }
@@ -15,6 +15,15 @@
     margin: 8px;
 }
 
-.textarea {
+input[type="radio"] {
+    display: inline;
+    margin: 8px;
+}
+
+select {
+    margin: 8px;
+}
+
+textarea {
     margin: 8px;
 }
