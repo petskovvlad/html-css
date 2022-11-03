@@ -67,7 +67,3 @@ tr:nth-child(1) td:nth-child(odd) {
 tr:nth-child(odd) td:nth-child(1) {
     border: 1px solid white;
 }
-
-tr:nth-last-child(2) > td:nth-last-child(2) {
-    border: 1px solid black;
-}
