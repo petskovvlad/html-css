@@ -1,0 +1,32 @@
+.button {
+    margin: 64px;
+    width: 200px;
+    line-height: 50px;
+    color: white;
+    background-color: coral;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.first-button-icon {
+    height: 32px;
+    width: 32px;
+    fill: white;
+    vertical-align: middle;
+}
+
+.first-button:hover {
+    color: darkcyan;
+}
+
+.button:hover > .first-button-icon {
+    fill: green;
+}
