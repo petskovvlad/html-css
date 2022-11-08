@@ -26,3 +26,7 @@
 .button:hover > .first-button-icon {
     fill: green;
 }
+
+.second-button {
+    height: 50px;
+}
