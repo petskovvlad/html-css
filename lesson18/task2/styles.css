@@ -1,7 +1,7 @@
 .button {
     margin: 64px;
     width: 200px;
-    line-height: 50px;
+    height: 50px;
     color: white;
     background-color: coral;
     border-radius: 4px;
@@ -23,7 +23,7 @@
     vertical-align: middle;
 }
 
-.first-button:hover {
+.button:hover {
     color: darkcyan;
 }
 
