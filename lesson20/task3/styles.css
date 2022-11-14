@@ -1,68 +1,72 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  p {
-    margin: 0 32px;
-    padding: 8px;
-    background-color: antiquewhite;
-    display: inline-block;
-    border-radius: 4px;
-  }
-
-  .container {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-  }
-
-  .spinner {
-    margin: auto;
-  }
-
-  .spinner-text {
-    font-family: monospace;
-    font-size: 16px;
-    text-transform: uppercase;
-    animation: blinking 2s infinite linear;
-  }
-
-  .circle {
-    margin: auto;
-    height: 50px;
-    width: 50px;
-    border-top: 4px solid black;
-    border-right: 4px solid lightgrey;
-    border-bottom: 4px solid lightgrey;
-    border-left: 4px solid lightgrey;
-    margin-bottom: 8px;
-    border-radius: 50%;
-    animation: rotate 2s infinite linear;
+  box-sizing: border-box;
 }
 
-    @keyframes rotate {
-        0% {
-            transform: rotate(0);
-        }
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
+}
 
-        100% {
-            transform: rotate(360deg);
-        }
-        
-    }
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
 
-  @keyframes blinking {
+.spinner {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    0% {
-        opacity: 0;
-    }
+.spinner-text {
+  margin: auto;
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s infinite linear;
+}
 
-    50% {
-        opacity: 1;
-    }
+.circle {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  border-top: 4px solid black;
+  border-right: 4px solid lightgrey;
+  border-bottom: 4px solid lightgrey;
+  border-left: 4px solid lightgrey;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  animation: rotate 2s infinite linear;
+}
 
-    100% {
-        opacity: 0;
-    }
-    
+  @keyframes rotate {
+      0% {
+          transform: rotate(0);
+      }
+
+      100% {
+          transform: rotate(360deg);
+      }
+      
   }
+
+@keyframes blinking {
+
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+  
+}
