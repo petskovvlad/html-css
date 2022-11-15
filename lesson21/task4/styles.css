@@ -1,92 +1,86 @@
 * {
     box-sizing: border-box;
-}
-
-html {
-    font-family: Verdana;
+  }
+  
+  html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #555;
     font-size: 16px;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(60deg, red, orange);
-}
-
-h1 {
-   color: #fff; 
-}
-
-.footer {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    background-color: #e5e5e5;
-    padding: 0.5em;
-    justify-content: center;
-    text-align: center;
-}
-
-main {
-    display: flex;
     height: 100%;
-}
-
-.navigation, .section, .news {
-    padding: 0.5em;
-}
-
-.navigation {
-    width: 20%;
-}
-
-.section {
+  }
+  
+  .header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(60deg, red, orange);
+  }
+  
+  body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
+  }
+  
+  .main {
+    flex: 1 0 auto;
+    display: flex;
+  }
+  
+  .footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  .navigation,
+  .section,
+  .news {
+    padding: 0.5em;
+  }
+  
+  .navigation,
+  .news {
+    width: 20%;
+  }
+  
+  .section {
     width: 60%;
     font-size: 1.25em;
-}
-
-.news {
-    width: 20%;
-}
-
-.nav-list {
+  }
+  
+  .units-list {
     line-height: 1.75em;
-    list-style-type: none;
-    padding: 0;
-
-
-}
-
-.css-units {
+  }
+  
+  .css-units {
     color: #8b0000;
     background-color: #e5e5e5;
-    font-size: 1.25em;
+    font-size: 1.125em;
     font-weight: 700;
-}
-
-.section__header {
+  }
+  
+  .section__header {
     font-size: 5vw;
-}
-
-.nav-list-item {
+    text-align: center;
+  }
+  
+  .nav-list {
+    padding: 0;
+  }
+  
+  .nav-list-item {
     background-color: #808080;
-    color: #fff;
+    color: white;
     line-height: 2em;
     margin-bottom: 0.5em;
-}
-
-.nav-list-link {
-    display: block;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+  }
+  
+  .nav-list-link {
+    color: white;
     text-decoration: none;
-    color: #fff;
+    padding: 0 0.5em;
+    display: block;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-}
+  }
