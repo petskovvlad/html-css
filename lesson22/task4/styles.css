@@ -33,13 +33,15 @@ html {
     list-style-type: none;
     width: 20%;
     padding: 0.5em;
+    
 }
 
 .nav-list-item {
     background-color: #808080;
     color: #fff;
     height: 2em;
-    padding-bottom: 0.5em;
+    line-height: 2em;
+    margin-bottom: 0.5em;
 }
 
 .nav-list-link {
