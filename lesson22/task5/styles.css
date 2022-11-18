@@ -46,9 +46,8 @@
   .section {
     width: 60%;
     font-size: 1.25em;
-
   }
-
+  
   .units-list {
     line-height: 1.75em;
   }
@@ -95,25 +94,7 @@
 
 
 
-  @media screen and (max-width: 599px) {
-    
-    main {
-        flex-direction: column;
-    }  
-
-    .navigation,
-    .news
-     {
-    width: 100%;
-    }   
-
-    .section {
-        width: 100%;
-    }
-  }
-
-
-
+  
   @media screen and (max-width: 1199px) {
 
     .main {
@@ -133,3 +114,26 @@
     }
 
 }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 599px) {
+    
+    main {
+        flex-direction: column;
+    }  
+
+    .navigation,
+    .news
+     {
+    width: 100%;
+    }   
+
+    .section {
+        width: 100%;
+    }
+  }
+
+
