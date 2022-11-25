@@ -11,6 +11,7 @@
   display: flex;
   line-height: 3em;
   list-style-type: none;
+  color: #fff;
 }
 .menu__item {
   padding-left: 8px;
